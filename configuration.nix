@@ -146,4 +146,7 @@
   "flakes"
   "nix-command"
   ];
+  environment.shellAliases = {
+  rebuild = "sudo nixos-rebuild switch --flake /home/ian/.dotfiles#shittop";
+  };
 }
