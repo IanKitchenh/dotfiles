@@ -113,6 +113,7 @@
     google-chrome
     android-studio
     git
+    discord
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
